@@ -11,8 +11,9 @@
 		D2DF6E512896CD1D0081485F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF6E502896CD1D0081485F /* SceneDelegate.swift */; };
 		D2DF6E532896CD1D0081485F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF6E522896CD1D0081485F /* ViewController.swift */; };
 		D2DF6E562896CD1D0081485F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DF6E542896CD1D0081485F /* Main.storyboard */; };
-		D2DF6E582896CD240081485F /* ellipse.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DF6E572896CD240081485F /* ellipse.png */; };
 		D2DF6E5B2896CD250081485F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DF6E592896CD250081485F /* LaunchScreen.storyboard */; };
+		D2DF6E632896D3250081485F /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF6E622896D3250081485F /* ExtensionViewController.swift */; };
+		D2DF6E672896D46B0081485F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DF6E662896D46B0081485F /* Assets.xcassets */; };
 		D807CD52A455803A15B0AAD9 /* Pods_SnapKit_TimerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05352A2F46A732E2063AA71 /* Pods_SnapKit_TimerApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,9 +25,10 @@
 		D2DF6E502896CD1D0081485F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D2DF6E522896CD1D0081485F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2DF6E552896CD1D0081485F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D2DF6E572896CD240081485F /* ellipse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ellipse.png; path = ../../ellipse.png; sourceTree = "<group>"; };
 		D2DF6E5A2896CD250081485F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2DF6E5C2896CD250081485F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DF6E622896D3250081485F /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		D2DF6E662896D46B0081485F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../TimerApp/TimerApp/Assets.xcassets; sourceTree = "<group>"; };
 		E05352A2F46A732E2063AA71 /* Pods_SnapKit_TimerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapKit_TimerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -56,7 +58,6 @@
 				59BF94561F0ABDA5B11E3013 /* Pods-SnapKit-TimerApp.debug.xcconfig */,
 				D1EEB294122F0E41E4E5E8EF /* Pods-SnapKit-TimerApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,8 +85,9 @@
 				D2DF6E4E2896CD1D0081485F /* AppDelegate.swift */,
 				D2DF6E502896CD1D0081485F /* SceneDelegate.swift */,
 				D2DF6E522896CD1D0081485F /* ViewController.swift */,
+				D2DF6E622896D3250081485F /* ExtensionViewController.swift */,
 				D2DF6E542896CD1D0081485F /* Main.storyboard */,
-				D2DF6E572896CD240081485F /* ellipse.png */,
+				D2DF6E662896D46B0081485F /* Assets.xcassets */,
 				D2DF6E592896CD250081485F /* LaunchScreen.storyboard */,
 				D2DF6E5C2896CD250081485F /* Info.plist */,
 			);
@@ -153,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2DF6E5B2896CD250081485F /* LaunchScreen.storyboard in Resources */,
-				D2DF6E582896CD240081485F /* ellipse.png in Resources */,
+				D2DF6E672896D46B0081485F /* Assets.xcassets in Resources */,
 				D2DF6E562896CD1D0081485F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DF6E632896D3250081485F /* ExtensionViewController.swift in Sources */,
 				D2DF6E532896CD1D0081485F /* ViewController.swift in Sources */,
 				D2DF6E4F2896CD1D0081485F /* AppDelegate.swift in Sources */,
 				D2DF6E512896CD1D0081485F /* SceneDelegate.swift in Sources */,
