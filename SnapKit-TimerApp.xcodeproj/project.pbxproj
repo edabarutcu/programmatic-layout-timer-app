@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D28162DB2897CA260000055D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D28162DA2897CA250000055D /* .gitignore */; };
 		D2DF6E4F2896CD1D0081485F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF6E4E2896CD1D0081485F /* AppDelegate.swift */; };
 		D2DF6E512896CD1D0081485F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF6E502896CD1D0081485F /* SceneDelegate.swift */; };
 		D2DF6E532896CD1D0081485F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF6E522896CD1D0081485F /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		59BF94561F0ABDA5B11E3013 /* Pods-SnapKit-TimerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKit-TimerApp.debug.xcconfig"; path = "Target Support Files/Pods-SnapKit-TimerApp/Pods-SnapKit-TimerApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EEB294122F0E41E4E5E8EF /* Pods-SnapKit-TimerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKit-TimerApp.release.xcconfig"; path = "Target Support Files/Pods-SnapKit-TimerApp/Pods-SnapKit-TimerApp.release.xcconfig"; sourceTree = "<group>"; };
+		D28162DA2897CA250000055D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D2DF6E4B2896CD1D0081485F /* SnapKit-TimerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnapKit-TimerApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DF6E4E2896CD1D0081485F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2DF6E502896CD1D0081485F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D28162DC2897CA310000055D /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				D28162DA2897CA250000055D /* .gitignore */,
+			);
+			path = Git;
+			sourceTree = "<group>";
+		};
 		D2DF6E422896CD1D0081485F = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +99,7 @@
 				D2DF6E542896CD1D0081485F /* Main.storyboard */,
 				D2DF6E662896D46B0081485F /* Assets.xcassets */,
 				D2DF6E592896CD250081485F /* LaunchScreen.storyboard */,
+				D28162DC2897CA310000055D /* Git */,
 				D2DF6E5C2896CD250081485F /* Info.plist */,
 			);
 			path = "SnapKit-TimerApp";
@@ -154,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28162DB2897CA260000055D /* .gitignore in Resources */,
 				D2DF6E5B2896CD250081485F /* LaunchScreen.storyboard in Resources */,
 				D2DF6E672896D46B0081485F /* Assets.xcassets in Resources */,
 				D2DF6E562896CD1D0081485F /* Main.storyboard in Resources */,
